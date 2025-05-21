@@ -1,0 +1,15 @@
+2. File Separation Conventions
+src/
+├── components/
+│   ├── ProductCard/
+│   │   ├── ProductCard.vue      // Template + style
+│   │   ├── ProductCard.js       // Logic export
+│   │   └── useProductCard.js    // Composition API
+├── composables/                 // Reusable logic
+│   ├── useCart.js
+│   └── usePagination.js
+├── stores/                      // State management
+│   └── cart.store.js
+└── utils/                       // Pure utilities
+    ├── formatters.js
+    └── api.js
