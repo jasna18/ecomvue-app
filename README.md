@@ -1,10 +1,10 @@
 # vue-app
 # A simple ecommerce vue-application with laravel backend
 # The app has 4 pages - home about products contact
-# the web route loads the vue-app
+# the web route loads controlller,that loads the vue-app
 # with api route the products are given in a  static json format
 # added the router 
-# fetch the products to the vue-app with axios api
+# vue fetch the products to the vue-app with axios api
 
 ### directory structure 
 laravel-app/
