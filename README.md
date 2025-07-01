@@ -1,7 +1,7 @@
 # vue-app
 A simple ecommerce vue-application with laravel backend
 The app has 4 pages - home about products contact
-the wend route loads the vue-app
+the web route loads the vue-app
 with api route the products are given in a  static json format
 added the router 
 fetch the products to the vue-app with axios api
@@ -29,8 +29,7 @@ vue-app/
 │   ├── router/
 │   │   └── index.js
 │   └── app.js (main.js)
- ### here the laravel controller loads the vue-app
- app.js is the main entry point to load the vue 
+
  ## Project setup
 ```
 npm install
